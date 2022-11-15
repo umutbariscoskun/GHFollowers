@@ -14,7 +14,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
    
+      configureBarsForIos15()
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = createTabbar()
+        window?.makeKeyAndVisible()
+        configureNavigationBar()
+        
+    }
+    
+    
+    func configureBarsForIos15(){
+      
         if #available(iOS 15, *) {
             let tabbarAppearance =
             UINavigationBarAppearance()
@@ -27,12 +39,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     UITabBar.appearance().standardAppearance = appearance
                     UITabBar.appearance().scrollEdgeAppearance = appearance
                 }
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        window?.rootViewController = createTabbar()
-        window?.makeKeyAndVisible()
-        configureNavigationBar()
-        
     }
     
   

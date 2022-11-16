@@ -26,7 +26,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     
     func configureBarsForIos15(){
-      
         if #available(iOS 15, *) {
             let tabbarAppearance =
             UINavigationBarAppearance()
@@ -46,8 +45,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createTabbar() -> UITabBarController {
         let tabbar = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
-        
-      
         
         tabbar.viewControllers = [createSearchNavigatounController(), createFavoritesListNavigatounController()]
         

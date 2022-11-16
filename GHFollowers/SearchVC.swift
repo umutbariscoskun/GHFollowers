@@ -31,15 +31,14 @@ class SearchVC: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
     }
-    
-    func dismissKeyboard(){
+        func dismissKeyboard(){
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
     }
     
    @objc func pushFollowerListVC(){
        guard isuserNameEntered  else {
-           print("empty state")
+           presentGFAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look 🙂.", buttonTitle: "OK")
            return}
         let followerListVc = FollowersListVC()
        followerListVc.userName = userNameTextField.text

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F00E895B2926A9D40033E7CB /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E895A2926A9D30033E7CB /* Follower.swift */; };
 		F00E895E2926AB7A0033E7CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E895D2926AB7A0033E7CB /* User.swift */; };
+		F00E89612926B0840033E7CB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E89602926B0840033E7CB /* NetworkManager.swift */; };
 		F05431E929210F0900DBF10A /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05431E829210F0900DBF10A /* GFButton.swift */; };
 		F05431EB29211D8600DBF10A /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05431EA29211D8600DBF10A /* GFTextField.swift */; };
 		F07383B42922D65A00BE9378 /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07383B32922D65A00BE9378 /* FollowersListVC.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		F00E895A2926A9D30033E7CB /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		F00E895D2926AB7A0033E7CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F00E89602926B0840033E7CB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F05431E829210F0900DBF10A /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		F05431EA29211D8600DBF10A /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		F07383B32922D65A00BE9378 /* FollowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 				F00E895D2926AB7A0033E7CB /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F00E895F2926B0730033E7CB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F00E89602926B0840033E7CB /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		F0364C8A2925738200FC5A3D /* CustomViews */ = {
@@ -124,6 +134,7 @@
 		F08EC73C292029C30057DB90 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				F00E895F2926B0730033E7CB /* Managers */,
 				F00E895C2926AB660033E7CB /* Models */,
 				F0364C8B292573BA00FC5A3D /* Extensions */,
 				F0364C8A2925738200FC5A3D /* CustomViews */,
@@ -214,6 +225,7 @@
 				F08736D0292564AC00E98497 /* GFAlertVC.swift in Sources */,
 				F08736CE292563CE00E98497 /* GFBodyLabel.swift in Sources */,
 				F08736CA292561E000E98497 /* GFTitleLabel.swift in Sources */,
+				F00E89612926B0840033E7CB /* NetworkManager.swift in Sources */,
 				F08EC75229202F6D0057DB90 /* SearchVC.swift in Sources */,
 				F08EC73E292029C30057DB90 /* AppDelegate.swift in Sources */,
 				F08EC740292029C30057DB90 /* SceneDelegate.swift in Sources */,

@@ -27,11 +27,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func configureBarsForIos15(){
         if #available(iOS 15, *) {
-            let tabbarAppearance =
-            UINavigationBarAppearance()
-            tabbarAppearance.configureWithOpaqueBackground()
-            UINavigationBar.appearance().standardAppearance=tabbarAppearance
-            UINavigationBar.appearance().scrollEdgeAppearance = tabbarAppearance
+//            let tabbarAppearance =
+//            UINavigationBarAppearance()
+//            tabbarAppearance.configureWithOpaqueBackground()
+//            UINavigationBar.appearance().standardAppearance=tabbarAppearance
+//            UINavigationBar.appearance().scrollEdgeAppearance = tabbarAppearance
             
                     let appearance = UITabBarAppearance()
                     appearance.configureWithOpaqueBackground()

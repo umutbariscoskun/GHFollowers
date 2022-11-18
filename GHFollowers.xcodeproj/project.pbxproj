@@ -26,6 +26,7 @@
 		F08EC75429202FA30057DB90 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08EC75329202FA30057DB90 /* FavoritesListVC.swift */; };
 		F0BB312C2927F3A000F9807D /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312B2927F3A000F9807D /* FollowerCell.swift */; };
 		F0BB312E2927F43D00F9807D /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312D2927F43D00F9807D /* GFAvatarImageView.swift */; };
+		F0BB3130292815D500F9807D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312F292815D500F9807D /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F08EC75329202FA30057DB90 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		F0BB312B2927F3A000F9807D /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		F0BB312D2927F43D00F9807D /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		F0BB312F292815D500F9807D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				F00E89632926C4B40033E7CB /* ErrorMessage.swift */,
+				F0BB312F292815D500F9807D /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				F07383B42922D65A00BE9378 /* FollowersListVC.swift in Sources */,
 				F08EC75429202FA30057DB90 /* FavoritesListVC.swift in Sources */,
 				F00E895B2926A9D40033E7CB /* Follower.swift in Sources */,
+				F0BB3130292815D500F9807D /* UIHelper.swift in Sources */,
 				F0BB312E2927F43D00F9807D /* GFAvatarImageView.swift in Sources */,
 				F08736D229256CBB00E98497 /* UIViewController+Ext.swift in Sources */,
 				F05431E929210F0900DBF10A /* GFButton.swift in Sources */,

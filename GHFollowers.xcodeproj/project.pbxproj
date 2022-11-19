@@ -27,6 +27,7 @@
 		F0BB312C2927F3A000F9807D /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312B2927F3A000F9807D /* FollowerCell.swift */; };
 		F0BB312E2927F43D00F9807D /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312D2927F43D00F9807D /* GFAvatarImageView.swift */; };
 		F0BB3130292815D500F9807D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB312F292815D500F9807D /* UIHelper.swift */; };
+		F0EB14E229292C4B00BB9E0E /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB14E129292C4B00BB9E0E /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		F0BB312B2927F3A000F9807D /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		F0BB312D2927F43D00F9807D /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		F0BB312F292815D500F9807D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		F0EB14E129292C4B00BB9E0E /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				F05431E829210F0900DBF10A /* GFButton.swift */,
 				F05431EA29211D8600DBF10A /* GFTextField.swift */,
 				F0BB312D2927F43D00F9807D /* GFAvatarImageView.swift */,
+				F0EB14E129292C4B00BB9E0E /* GFEmptyStateView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				F08736D0292564AC00E98497 /* GFAlertVC.swift in Sources */,
 				F08736CE292563CE00E98497 /* GFBodyLabel.swift in Sources */,
 				F08736CA292561E000E98497 /* GFTitleLabel.swift in Sources */,
+				F0EB14E229292C4B00BB9E0E /* GFEmptyStateView.swift in Sources */,
 				F00E89612926B0840033E7CB /* NetworkManager.swift in Sources */,
 				F08EC75229202F6D0057DB90 /* SearchVC.swift in Sources */,
 				F08EC73E292029C30057DB90 /* AppDelegate.swift in Sources */,

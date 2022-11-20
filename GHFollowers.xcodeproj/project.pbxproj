@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00597E3292AB18400CD209E /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00597E2292AB18400CD209E /* UserInfoVC.swift */; };
 		F00E895B2926A9D40033E7CB /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E895A2926A9D30033E7CB /* Follower.swift */; };
 		F00E895E2926AB7A0033E7CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E895D2926AB7A0033E7CB /* User.swift */; };
 		F00E89612926B0840033E7CB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E89602926B0840033E7CB /* NetworkManager.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F00597E2292AB18400CD209E /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		F00E895A2926A9D30033E7CB /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		F00E895D2926AB7A0033E7CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F00E89602926B0840033E7CB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				F08EC75329202FA30057DB90 /* FavoritesListVC.swift */,
 				F08EC75129202F6D0057DB90 /* SearchVC.swift */,
 				F07383B32922D65A00BE9378 /* FollowersListVC.swift */,
+				F00597E2292AB18400CD209E /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				F08EC75229202F6D0057DB90 /* SearchVC.swift in Sources */,
 				F08EC73E292029C30057DB90 /* AppDelegate.swift in Sources */,
 				F08EC740292029C30057DB90 /* SceneDelegate.swift in Sources */,
+				F00597E3292AB18400CD209E /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

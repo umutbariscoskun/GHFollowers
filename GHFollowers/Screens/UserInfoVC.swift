@@ -8,7 +8,7 @@
 import UIKit
 
 class UserInfoVC: UIViewController {
-    var username: string!
+    var username: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()

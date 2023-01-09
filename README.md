@@ -6,7 +6,7 @@
 - Native image caching with NSCache
 - Custom alert view
 - Dark and Light Mode support
-
+- MVC
 - Delegates and protocols pattern
 - Network manager with URLSession and Codable
 - Persistence manager for UserDefaults

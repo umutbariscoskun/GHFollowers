@@ -12,7 +12,7 @@
 - Persistence manager for UserDefaults
 - Swift 5 result type and error handling
 
-| Main Page | Follower List|
+| SearchVC | Follower List|
 | ------------- | ------------- |
 | ![test](https://user-images.githubusercontent.com/45595606/211367894-91ee58b6-6cd4-4cb1-ae6f-6171645a134c.png)  | ![test3](https://user-images.githubusercontent.com/45595606/211368440-6e97032b-eaa6-4093-9e10-553fad370946.png) |
 | User Info | Safari View |

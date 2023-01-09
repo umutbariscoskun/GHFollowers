@@ -1,14 +1,12 @@
 # GHFollowers App
 
-#### Views
+#### THIS APP INCLUDES:
 - Programmatic views
 - Collection view with pagination and Diffable Data Sources
 - Native image caching with NSCache
 - Custom alert view
 - Dark and Light Mode support
 
-
-#### Architecture
 - Delegates and protocols pattern
 - Network manager with URLSession and Codable
 - Persistence manager for UserDefaults

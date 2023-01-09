@@ -1,5 +1,11 @@
-# GHFollowers Ap
+# GHFollowers App
 
+<h4>Programmatic UI ✅</h4>
+<h4>Protocool Pattern</h4>
+<h4>MVC</h4>
+<h4>Pagination</h4>
+<h4>Custom Network Manager</h4>
+<h4>Caching</h4>
 
 | Main Page | Follower List|
 | ------------- | ------------- |
@@ -9,12 +15,7 @@
 | Generic Dialog | Safari View |
 | ![favorite](https://user-images.githubusercontent.com/45595606/211369986-b728519e-d5ef-4f37-aa89-3acee8897535.png) | ![favorites](https://user-images.githubusercontent.com/45595606/211370138-7bf03af2-d8bc-4a18-9f9e-31c058e12f30.png) |
 
-<h4>Programmatic UI ✅</h4>
-<h4>Protocool Pattern</h4>
-<h4>MVC</h4>
-<h4>Pagination</h4>
-<h4>Custom Network Manager</h4>
-<h4>Caching</h4>
+
 
 
 
